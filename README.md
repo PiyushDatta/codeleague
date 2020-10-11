@@ -1,2 +1,2 @@
-# codeleague
+# Code League
 A league for competitive programmers.

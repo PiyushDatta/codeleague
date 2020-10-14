@@ -1,3 +1,14 @@
 .match-page {
-    margin-top: 3%;
+  margin-top: 3%;
+}
+.match-page-top {
+  min-height: 350px;
+  width: 100%;
+  position: relative;
+  overflow: auto;
+}
+.match-page-bottom {
+  width: 100%;
+  position: relative;
+  overflow: auto;
 }

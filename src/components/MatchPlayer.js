@@ -12,11 +12,9 @@ export default class MatchPlayer extends React.Component {
 
   render() {
     return (
-      <div className="player-div">
-        <React.Suspense maxDuration={1000} fallback={<Spinner size="large" />}>
-          {getPlayerDiv(this.state)}
-        </React.Suspense>
-      </div>
+      <React.Suspense maxDuration={1000} fallback={<Spinner size="large" />}>
+        {getPlayerDiv(this.state)}
+      </React.Suspense>
     );
   }
 }

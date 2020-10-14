@@ -18,11 +18,9 @@ export default class PlayPage extends React.Component {
       <div className="play-page">
         <React.Suspense maxDuration={1000} fallback={<Spinner size="large" />}>
           <div className="play-button-div" style={{ marginTop: 50 }}>
-            <PlayButton>
-              <a href="/match" style={{ textDecoration: 'none', color: 'white'}}>
-                Play
-              </a>
-            </PlayButton>
+            <a href="/match" style={{ textDecoration: "none", color: "white" }}>
+              <PlayButton>Play</PlayButton>
+            </a>
           </div>
           <div className="league-text-div" style={{ marginTop: 50 }}>
             <h1 style={{ marginRight: 16 }}>League - {getLeague()}</h1>

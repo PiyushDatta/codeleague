@@ -1,0 +1,41 @@
+.navbar {
+  background-color: white;
+}
+a,
+.navbar-nav,
+.navbar-light .nav-link {
+  color: black;
+}
+.navbar-nav:hover,
+.navbar-light:hover .nav-link:hover {
+  color: grey;
+}
+.navbar-brand {
+  font-size: 1.4em;
+  color: black;
+}
+.navbar-brand:hover {
+  color: grey;
+}
+.form-center {
+  position: absolute !important;
+  left: 25%;
+  right: 25%;
+}
+.ml-auto {
+  margin: 0 auto;
+}
+.nav-item {
+  padding-right: 30px;
+}
+.nav-item-text {
+  width: 65px;
+  height: 28px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
